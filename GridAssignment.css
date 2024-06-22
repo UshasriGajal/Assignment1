@@ -1,0 +1,84 @@
+.Parent{
+    display: grid;
+    /* grid-auto-rows: minmax(150px ,auto); */
+    grid-template-columns: repeat(1,1fr)
+}
+.Items1{
+    background-color: plum;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    border: 1px solid black;
+}
+.Items2{
+    background-color: rgb(204, 227, 247);
+    position: absolute;
+    justify-content: start;
+    height: 732px;
+    top: 180px;
+    width: 20%;
+    
+}
+.Items3{
+    background-color: bisque;
+    position: relative;
+    justify-content: end;
+    left: 21%;
+    height: 300px;
+    /* top: 170px; */
+    width: 79%;
+}
+.Items4{
+    background-color:darkgray;
+    position: relative;
+    justify-content: end;
+    left: 21%;
+    height: 250px;
+    /* top: 170px; */
+    width: 39%;
+}
+.Items5{
+    background-color:palevioletred;
+    position: relative;
+    justify-content: end;
+    left: 21%;
+    height: 250px;
+    /* top: 170px; */
+    width: 39%;
+}
+.Items6{
+    background-color:rgb(135, 234, 179);
+    position: relative;
+    justify-content: end;
+    left: 21%;
+    height: 160px;
+    /* top: 170px; */
+    width: 79%;
+}
+.gridItems{
+    margin: 5px;
+    text-align: center;
+    /* height: 200px; */
+    border: 1px solid black;
+}
+.sideDiv{
+    display: flex;
+}
+p{
+    /* text-align: ; */
+    margin-top: 72px;
+    text-align: center;
+}
+.Items2 p{
+    margin-top: 400px;
+}
+.Items3 p{
+    margin-top: 130px;
+}
+.Items4 p{
+    margin-top: 120px;
+}
+.Items5 p{
+    margin-top: 120px;
+}
